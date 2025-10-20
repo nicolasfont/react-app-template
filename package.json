@@ -1,13 +1,12 @@
 {
   "name": "react-app-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "build": "tsc -b && vite build",
     "check": "biome check --write",
-    "dev": "vite",
-    "preview": "vite preview"
+    "start": "vite"
   },
   "dependencies": {
     "@radix-ui/themes": "^3.2.1",

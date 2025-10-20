@@ -6,7 +6,7 @@ export default function App() {
     <Theme accentColor="green">
       <Flex direction="column" gap="2">
         <Heading>react-app-template</Heading>
-        <Text>A wonderful application template.</Text>
+        <Text>A wonderful application.</Text>
       </Flex>
     </Theme>
   );
