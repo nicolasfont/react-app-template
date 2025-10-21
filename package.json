@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc -b && vite build",
     "check": "biome check --write",
-    "start": "vite"
+    "start": "vite",
+    "test": "node --test"
   },
   "dependencies": {
     "@radix-ui/themes": "^3.2.1",
