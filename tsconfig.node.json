@@ -1,7 +1,10 @@
 {
-  "extends": ["@tsconfig/vite-react/tsconfig.json", "@tsconfig/strictest/tsconfig.json"],
+  "extends": [
+    "@tsconfig/vite-react/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json"
+  ],
   "compilerOptions": {
-    "types": ["node"],
+    "types": ["node"]
   },
   "include": ["vite.config.ts"]
 }
