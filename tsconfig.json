@@ -4,7 +4,7 @@
     "@tsconfig/strictest/tsconfig.json"
   ],
   "compilerOptions": {
-    "types": ["node", "vite/client", "vitest/globals"]
+    "types": ["vite/client", "vitest/globals"]
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src", "*.ts"]
 }
