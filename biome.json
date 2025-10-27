@@ -15,6 +15,11 @@
     "indentStyle": "space",
     "indentWidth": 2
   },
+  "html": {
+    "formatter": {
+      "enabled": true
+    }
+  },
   "vcs": {
     "enabled": true,
     "clientKind": "git",
