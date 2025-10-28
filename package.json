@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "engines": {
+    "node": ">=25.0.0",
+    "npm": ">=11.6.2"
+  },
   "scripts": {
     "build": "tsc -b && vite build",
     "check": "biome check --write",
